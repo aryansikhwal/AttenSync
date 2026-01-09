@@ -1,4 +1,4 @@
-# 🎯 AttenSync - Automated RFID Attendance System
+#  AttenSync - Automated RFID Attendance System
 
 ![AttenSync](https://img.shields.io/badge/AttenSync-RFID%20Attendance-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square)
@@ -7,16 +7,16 @@
 
 A comprehensive **IoT-based attendance management system** that combines **ESP32 RFID hardware** with a modern **React web dashboard** for real-time attendance tracking.
 
-## 🌟 Key Features
+##  Key Features
 
-- 🔷 **Real-time RFID Scanning** - ESP32 Bluetooth integration
-- 🔄 **Offline-first** - Locally stored data until network availability
-- 🎨 **Modern Web Dashboard** - React-based responsive UI
-- 📊 **Live Analytics** - Real-time attendance statistics
-- 👥 **Attendance Prediction** - ML model predcits attendance forecast
-- 📱 **Multi-Language Accesibility** - Available in Punjabi, Hindi & English
+-  **Real-time RFID Scanning** - ESP32 Bluetooth integration
+-  **Offline-first** - Locally stored data until network availability
+-  **Modern Web Dashboard** - React-based responsive UI
+-  **Live Analytics** - Real-time attendance statistics
+-  **Attendance Prediction** - ML model predcits attendance forecast
+-  **Multi-Language Accesibility** - Available in Punjabi, Hindi & English
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 AttenSync/
@@ -57,7 +57,7 @@ AttenSync/
 └── requirements.txt           # Python dependencies
 ```
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -67,7 +67,7 @@ AttenSync/
 | **Hardware** | ESP32, RFID-RC522, Bluetooth Low Energy |
 | **Communication** | REST API, WebSocket (future), BLE |
 
-## 📱 Hardware Requirements
+##  Hardware Requirements
 
 - **ESP32 Development Board**
 - **RFID-RC522 Module**  
@@ -75,7 +75,7 @@ AttenSync/
 - **Bluetooth-enabled Computer**
 
 
-## 📊 System Architecture
+##  System Architecture
 
 ```
 ┌─────────────┐    BLE     ┌──────────────┐    HTTP    ┌─────────────┐
@@ -92,7 +92,7 @@ AttenSync/
 ```
 
 
-## 🤖 API Endpoints
+##  API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -102,7 +102,7 @@ AttenSync/
 | `/api/rfid/scans` | GET | RFID scan logs |
 | `/api/stats/dashboard` | GET | Dashboard analytics |
 
-## 🔧 Development
+##  Development
 
 ```bash
 # Backend development
@@ -115,7 +115,7 @@ cd client && npm start  # Hot reload enabled
 python initialize_system.py --reset
 ```
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 AttenSync/
@@ -132,21 +132,13 @@ AttenSync/
 └── 📄 README.md              # This file
 ```
 
-## 🤝 Contributing
 
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature-name`
-3. **Commit** your changes: `git commit -m 'Add feature'`
-4. **Push** to the branch: `git push origin feature-name`  
-5. **Open** a Pull Request
+##  Achievements
 
-
-## 🏆 Achievements
-
-- ✅ **End-to-end IoT Solution** - Hardware to Web Dashboard
-- ✅ **Real-time Data Processing** - Live RFID scan integration  
-- ✅ **Professional UI/UX** - Modern React interface
-- ✅ **Scalable Architecture** - RESTful API design
-- ✅ **Production Ready** - Complete with documentation
+-  **End-to-end IoT Solution** - Hardware to Web Dashboard
+-  **Real-time Data Processing** - Live RFID scan integration  
+-  **Professional UI/UX** - Modern React interface
+-  **Scalable Architecture** - RESTful API design
+-  **Production Ready** - Complete with documentation
 
 ---
