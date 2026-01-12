@@ -23,7 +23,6 @@ AttenSync was developed as a team project during SIH.
 **My contributions:**
 - Designed and implemented key backend APIs (Flask) for attendance operations
 - Worked on database schema + integration (students, scans, attendance records)
-- Integrated RFID scan ingestion pipeline (hardware listener → backend ingestion)
 - Contributed to analytics/prediction module and dashboard data endpoints
 
 
