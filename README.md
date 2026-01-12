@@ -6,7 +6,7 @@ This repository is designed to demonstrate **end-to-end system engineering**: ha
 
 ---
 
-##  Recruiter Summary 
+##  Project Summary 
 
 -- Built a complete system end-to-end (hardware → cloud-style web app)  
 -- API + database driven backend with real-time attendance ingestion  
@@ -15,6 +15,17 @@ This repository is designed to demonstrate **end-to-end system engineering**: ha
 -- Deployable architecture with clear scope for scalability
 
 ---
+
+## Team / Contributions
+
+AttenSync was developed as a team project during SIH.
+
+**My contributions:**
+- Designed and implemented key backend APIs (Flask) for attendance operations
+- Worked on database schema + integration (students, scans, attendance records)
+- Integrated RFID scan ingestion pipeline (hardware listener → backend ingestion)
+- Contributed to analytics/prediction module and dashboard data endpoints
+
 
 ##  System Overview
 
